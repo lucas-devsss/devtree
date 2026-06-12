@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-off-white: #f7f7f7;
+  --color-purple-primary: #6c63ff;
+  --color-purple-dark: #3d3799;
+  --color-black-base: #0f0f13;
+  --color-black-card: #1a1a24;
+}
