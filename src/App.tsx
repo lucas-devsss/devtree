@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "./components/Header/Header";
 import ProfileCard from "./components/ProfileCard/ProfileCard";
+import SocialLinks from "./components/SocialLinks/SocialLinks";
 
 function App() {
   const [isDark, setIsDark] = useState<boolean>(true);
@@ -16,7 +17,10 @@ function App() {
   return (
     <>
       <Header changeTheme={changeTheme} dark={isDark}></Header>
-      <ProfileCard />
+      <section className="dark:bg-black-base flex flex-col justify-center h-dvh">
+        <ProfileCard />
+        <SocialLinks />
+      </section>
     </>
   );
 }
