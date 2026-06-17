@@ -1,6 +1,6 @@
 export default function ProfileCard() {
   return (
-    <address className="flex flex-col items-center dark:text-off-white dark:bg-black-base py-2.5 px-7">
+    <address className="flex flex-col items-center dark:text-off-white py-2.5 px-7">
       <img
         src="https://i.pinimg.com/736x/96/87/70/968770a730af56c3087cef058f3ffab2.jpg"
         alt=""
