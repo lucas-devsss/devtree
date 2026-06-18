@@ -4,10 +4,14 @@ import ProfileCard from "./components/ProfileCard/ProfileCard";
 import SocialLinks from "./components/SocialLinks/SocialLinks";
 
 function App() {
-  const [isDark, setIsDark] = useState<boolean>(true);
+  const [isDark, setIsDark] = useState<boolean>(() => {
+    const stored = localStorage.getItem("dark");
+    return stored !== null ? JSON.parse(stored) : true;
+  });
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", isDark);
+    localStorage.setItem("dark", JSON.stringify(isDark));
   }, [isDark]);
 
   function changeTheme(): void {
