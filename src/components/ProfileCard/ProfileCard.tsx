@@ -2,7 +2,7 @@ export default function ProfileCard() {
   return (
     <address className="flex flex-col items-center dark:text-off-white py-2.5 px-7">
       <img
-        src="src/assets/caio_lucas_img.png"
+        src="public/caio_lucas_img.png"
         alt=""
         className="w-37.5 h-37.5 rounded-full object-cover object-[50%_30%]"
       />
