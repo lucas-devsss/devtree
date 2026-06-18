@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <Header changeTheme={changeTheme} dark={isDark}></Header>
-      <section className="dark:bg-black-base flex flex-col justify-center h-dvh">
+      <section className="dark:bg-black-base flex flex-col justify-center h-dvh duration-300">
         <ProfileCard />
         <SocialLinks />
       </section>
