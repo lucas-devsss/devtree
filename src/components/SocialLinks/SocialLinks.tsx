@@ -11,7 +11,7 @@ export default function SocialLinks() {
           icon={AiFillLinkedin}
         />
         <LinkCard
-          url="hhttps://github.com/lucas-devsss"
+          url="https://github.com/lucas-devsss"
           name="Github"
           icon={AiFillGithub}
         />
