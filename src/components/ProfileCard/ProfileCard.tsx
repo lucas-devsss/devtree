@@ -2,9 +2,9 @@ export default function ProfileCard() {
   return (
     <address className="flex flex-col items-center dark:text-off-white py-2.5 px-7">
       <img
-        src="https://i.pinimg.com/736x/96/87/70/968770a730af56c3087cef058f3ffab2.jpg"
+        src="src/assets/caio_lucas_img.png"
         alt=""
-        className="max-w-37.5 max-h-37.5 rounded-full"
+        className="w-37.5 h-37.5 rounded-full object-cover object-[50%_30%]"
       />
       <h1 className="text-3xl font-extrabold md:text-5xl mb-2 ">Caio Lucas</h1>
       <p className="text-center text-base md:text-lg max-w-112.5 font-poppins">
