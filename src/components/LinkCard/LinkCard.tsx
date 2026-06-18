@@ -15,7 +15,7 @@ export default function LinkCard({ url, name, icon }: LinkCardProps) {
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex-2 text-center font-medium text-base"
+        className="flex-2 text-center font-medium text-base font-poppins"
       >
         {name}
       </a>

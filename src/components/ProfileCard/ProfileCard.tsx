@@ -6,8 +6,8 @@ export default function ProfileCard() {
         alt=""
         className="max-w-37.5 max-h-37.5 rounded-full"
       />
-      <h1 className="text-3xl font-extrabold md:text-5xl mb-2">Caio Lucas</h1>
-      <p className="text-center text-base md:text-lg max-w-112.5">
+      <h1 className="text-3xl font-extrabold md:text-5xl mb-2 ">Caio Lucas</h1>
+      <p className="text-center text-base md:text-lg max-w-112.5 font-poppins">
         Dev Frontend construindo e colaborando em projetos que geram valor para
         outras pessoas.
       </p>
