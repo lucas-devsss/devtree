@@ -1,73 +1,112 @@
-# React + TypeScript + Vite
+# 📘 DevTree
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🧩 Sobre o projeto
 
-Currently, two official plugins are available:
+O DevTree é uma vitrine pessoal one-page, no estilo Linktree, criada para apresentar minha foto, bio e links de redes sociais (GitHub e LinkedIn) em um só lugar.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O projeto conta com dark e light mode com persistência da preferência do usuário via localStorage, identidade visual própria (paleta de cores e tipografia customizadas) e é totalmente responsivo para desktop e mobile.
 
-## React Compiler
+🔗 **[Acesse o projeto aqui](https://devtrees.vercel.app/)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🖥️ Preview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**Desktop**
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+![Preview Dark Mode](./public/print-darkmode.png)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+![Preview Light Mode](./public/print-lightmode.png)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 🎯 Objetivo do projeto
+
+O projeto tem como foco:
+
+- Aprender e praticar Tailwind CSS
+- Entender decisões de design, como paleta de cores, tipografia e hierarquia visual
+- Manter uma identidade visual consistente com minha presença em outras redes
+
+---
+
+## 📋 Funcionalidades
+
+- Exibição de foto de perfil, nome e bio
+- Links para GitHub e LinkedIn
+- Dark mode
+- Persistência para o tema
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- **React** 19
+- **TypeScript** 5.9
+- **Vite**
+- **Tailwind CSS v4**
+- **ESLint**
+- **React-icons**
+- **Git & GitHub**
+- **Vercel** (deploy)
+
+---
+
+## ⚙️ Como executar o projeto
+
+### Acessar online
+
+🔗 **[devtrees.vercel.app](https://devtrees.vercel.app/)**
+
+### Rodar localmente
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/[seu-nome]/devtree
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Instale as dependências dentro do projeto:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+npm install
+
 ```
+
+Inicie o servidor de desenvolvimento:
+
+```bash
+
+npm run dev
+
+```
+
+---
+
+## 🧠 Aprendizados
+
+- Aplicar classes utility-first
+- Entender como o Tailwind lida com responsividade, valores customizáveis e dark mode
+- Utilização de bibliotecas de icones
+- Criação de interfaces para tipagem de props e icones
+
+## 🧰 Próximos passos
+
+O projeto cumpriu seu objetivo de consolidar Tailwind CSS e fundamentos de design.
+
+### Evoluções futuras planejadas:
+
+- Adicionar link do Instagram e portfólio completo
+- Seção de projetos em destaque
+- Animações e micro-interações
+- Internacionalização (PT-BR / EN)
+
+---
+
+## 👨‍💻 Autor
+
+Feito com 💙 por **Caio Lucas**
+
+🔗 [GitHub](https://github.com/lucas-devsss)
+💼 [LinkedIn](https://www.linkedin.com/in/lucas-devsss/)
