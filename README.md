@@ -12,9 +12,11 @@ O projeto conta com dark e light mode com persistência da preferência do usuá
 
 ## 🖥️ Preview
 
-**Desktop**
+**Dark Mode**
 
 ![Preview Dark Mode](./public/print-darkmode.png)
+
+**Light Mode**
 
 ![Preview Light Mode](./public/print-lightmode.png)
 
